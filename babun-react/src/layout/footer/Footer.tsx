@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaHome, FaCalculator, FaCreditCard, FaInfoCircle } from "react-icons/fa";
 import "./Footer.css";
 

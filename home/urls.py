@@ -16,6 +16,7 @@ urlpatterns = [
     path("eligibility/", eligibility, name="eligibility"),
     path('api/loan-applications/', LoanApplicationView.as_view(), name='loan-applications'),
     path('api/contact/', ContactFormView.as_view(), name='contact_form'),
+    re_path(r'^.*$', index, name='index'),
 
 
 ]
